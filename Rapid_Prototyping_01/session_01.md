@@ -46,7 +46,7 @@ Now type the word "Polyline".
 
 Try experimenting with it, what does Polyline mean, based on what happens when you click around in the top pane?
 
-
+![Line Image](images/polyline.png)
 
 #### Curves
 
