@@ -2,7 +2,7 @@
 
 ## Designing and Building Prototype Enclosures in Rhino
 
-This is a practical guide with limited scope to building enclosures/interface boxes, please also undertake the [Rhino Essential Training]([HERE](http://staging.p5js.org/tutorials/debugging.html) Lynda course.
+This is a practical guide with limited scope to building enclosures/interface boxes, please also undertake the [Rhino Essential Training](http://staging.p5js.org/tutorials/debugging.html) Lynda course.
 
 ### Task 1 - Research
 
@@ -49,6 +49,9 @@ Try experimenting with it, what does Polyline mean, based on what happens when y
 ![Line Image](images/polyline.png)
 
 #### Curves
+
+OK, that's all good for straight lines, but what happens if we want a curved line. There are lots of options here, but try typing "_curve"...
+
 
 
 ### Task 3 - Extrusion
