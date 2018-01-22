@@ -2,7 +2,7 @@
 
 ## Designing and Building Prototype Enclosures in Rhino
 
-This is a practical guide with limited scope to building enclosures/interface boxes, please also undertake the [Rhino Essential Training](http://staging.p5js.org/tutorials/debugging.html) Lynda course.
+This is a practical guide with limited scope to building enclosures/interface boxes, please also undertake the [Rhino Essential Training](https://www.lynda.com/Rhino-tutorials/Rhino-5-Essential-Training/133324-2.html) Lynda course.
 
 ### Task 1 - Research
 
