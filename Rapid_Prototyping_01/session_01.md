@@ -52,7 +52,7 @@ Try experimenting with it, what does Polyline mean, based on what happens when y
 
 OK, that's all good for straight lines, but what happens if we want a curved line. There are lots of options here, but try typing "_curve"...
 
-![Line Image](images/curve.png)
+![Curve Image](images/curve.png)
 
 ### Task 3 - Extrusion
 
