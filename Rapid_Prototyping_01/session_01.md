@@ -1,6 +1,6 @@
 # Sessions 01 and 02
 
-## Designing and Building Prototype Enclosures in Rhino
+## Designing and Building Lasercut Prototype Enclosures in Rhino
 
 This is a practical guide with limited scope to building enclosures/interface boxes, please also undertake the [Rhino Essential Training](https://www.lynda.com/Rhino-tutorials/Rhino-5-Essential-Training/133324-2.html) Lynda course.
 
@@ -15,6 +15,8 @@ This is a practical guide with limited scope to building enclosures/interface bo
 ![Interface Image](images/interface.png)
 
 Make new Large Objects mm template.
+
+Command line
 
 OSnap
 
@@ -50,15 +52,52 @@ Try experimenting with it, what does Polyline mean, based on what happens when y
 
 #### Curves
 
-OK, that's all good for straight lines, but what happens if we want a curved line. There are lots of options here, but try typing "_curve"...
+OK, that's all good for straight lines, but what happens if we want a curved line. Try clicking on the curve menu at the top. There are lots of options here, all quite useful but perhaps a bit daunting. Click off the menu and try typing "_curve" into the command line. This will allow us to create a bezier curve through the points we click on the plane. Ensure you are focused in the top view pane again...
+
+
+Just click around and experiment, can you undo if you made a mistake?
 
 ![Curve Image](images/curve.png)
 
 ### Task 3 - Extrusion
 
+Extrusion is a process used a lot in CAD and general manufacturing, and it's something we're going to be using a lot whilst we lasercut stuff. It involves creating an object that has a cross-sectional profile that is fixed.
+
+![Extrusion Basic Image](images/uXIEe.png)
+
+#### Rectangle
+
+With the top pane focused, type "rect" and the command line will auto-fill to "Rectangle". Hit enter. In the options, you will be able to select "center", go ahead. 
+
+Click on point 0,0,0 and draw a rectangle that is 30mm wide and 80mm high. HINT: you can type those figures in if you want...
+
+![Rectangle Basic Image](images/rectangle.png)
+
+
+
+#### Circle
+
+#### Rectangle
+
+#### Polyline
+
 ### Task 4 - Boolean Split
 
+#### Cylinder
+
+#### Box
+
+#### Sphere
+
 ### Task 5 - Using Layers
+
+#### First side of box
+
+#### Second side of box
+
+##### Using the mirror function
+
+#### Third side of box
 
 ### Task 6 - Construction lines
 
@@ -66,8 +105,12 @@ OK, that's all good for straight lines, but what happens if we want a curved lin
 
 ### Task 8 - Adding screw holes
 
-### Task 9 - Engraving
+### Task 9 - Adding text to be engraved
 
 ### Task 10 - Adding ventilation holes
+
+### Task 11 - Using Make2D to get surface outlines
+
+### Task 12 - Arranging your 2D shapes for cutting
 
 
