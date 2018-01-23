@@ -46,11 +46,11 @@ You've drawn your first line!
 
 When you select a particular drawing method, you will be given a set of options. If you're working on a PC these options are selectable using letter keys on the keyboard, these keys are highlighted in the words of the options beneath the command line:
 
-![Extrusion Basic Image](line_options.png)
+![Line Options PC](images/line_options.png)
 
 On a mac, there are also buttons to select the options:
 
-![Extrusion Basic Image](line_options_mac.png)
+![Line Options Mac](images/line_options_mac.png)
 
 #### Polyline
 
