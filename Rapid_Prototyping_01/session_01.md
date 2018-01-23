@@ -89,6 +89,8 @@ Click on point 0,0,0 and draw a rectangle that is 30mm wide and 80mm high. HINT:
 
 #### Sphere
 
+### INTERLUDE - MATERIAL THICKNESS
+
 ### Task 5 - Using Layers
 
 #### First side of box
@@ -103,7 +105,7 @@ Click on point 0,0,0 and draw a rectangle that is 30mm wide and 80mm high. HINT:
 
 ### Task 7 - Cutting objects
 
-### Task 8 - Adding screw holes
+### Task 8 - Adding screw and USB port holes
 
 ### Task 9 - Adding text to be engraved
 
@@ -112,5 +114,16 @@ Click on point 0,0,0 and draw a rectangle that is 30mm wide and 80mm high. HINT:
 ### Task 11 - Using Make2D to get surface outlines
 
 ### Task 12 - Arranging your 2D shapes for cutting
+
+### Task 13 - Open Challenge: Add Handles
+
+### Task 14 - Open Challenge: Add a lid
+
+### Task 15 - Open Challenge: Add a pattern to be cut on one side
+
+### Task 16 - Open Challenge: Add holes/mountings for buttons
+
+http://www.instructables.com/id/Laser-Cut-Boxes/
+
 
 
