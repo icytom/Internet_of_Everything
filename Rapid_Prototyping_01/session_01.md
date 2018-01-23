@@ -52,6 +52,8 @@ On a mac, there are also buttons to select the options:
 
 ![Line Options Mac](images/line_options_mac.png)
 
+You can see that we can draw from the centre, and the PC loads of other options are available.
+
 #### Polyline
 
 Now type the word "Polyline". 
@@ -85,21 +87,64 @@ Click on point 0,0,0 and draw a rectangle that is 30mm wide and 80mm high. HINT:
 
 Now type "extrude" into the command line. 
 
+You can see that you are presented with some options here. We want to make a solid object, so type the letter that makes it *S*olid...
+
+![Rectangle Basic Image](images/extruderect.png)
+
+Great, we created a box! Handily, there is also a "Box" command. But the principle of extrusion is really important to understand...  
+
 #### Circle
 
-#### Rectangle
+Let's do the same with a circle:
+
+Create a circle with a diameter of 100mm.
+
+Then extrude it as a solid cylinder that is 500mm long.
 
 #### Polyline
 
+OK now draw polyline in a shape of your choosing. Make sure that the start and end points are the same so you create what is called a closed curve. Use OSnap End to your advantage.
+
+Now extrude and make your custome shape.
+
 ### Task 4 - Split/Boolean Split
+
+The "Split" function is another incredibly useful tool in our inventory. It uses one object to cut another. Let's try it with two lines:
 
 #### Lines
 
+Draw one line 10mm long. Then, use OSnap to snap to the midpoint of this line and draw another line which intersects it halfway along at a right angle.
+
+Click on the first line and type "Split". Now click on the second line and hit enter.
+
+![Rectangle Basic Image](images/split_line.png)
+
+Now you have three lines!
+
+
 #### Cylinder
+
+Create a cylinder by typing the word "Cylinder" into the command line. Make a cylinder that is 80mm diameter and 200mm long.
 
 #### Box
 
+Now make a box that starts on the midpoint of one side of the cylinder. Use Osnap to your advantage here. 
+
+OK, type the command "Boolean Split" into the command line and hit enter. When prompted for the object to split, select the cylinder and hit enter. When prompted for cutting object, select the box and hit enter.
+
+Now delete the box and you should see that you have split the cylinder into a custom shape.
+
+![Boolean Split](images/boolean_split_01.png)
+
 #### Sphere
+
+Now try the same thing but using the sphere command. Make sure it intersects with the end of the custom cylinder. Using "OSnap center" to your advantage so that it snaps to the right point.
+
+Now do boolean split in an order of your choosing - will you split the cylinder or the sphere?
+
+I split the sphere and deleted the cylinder:
+
+![Boolean Split](images/boolean_split_02.png)
 
 ### INTERLUDE - MATERIAL THICKNESS
 
