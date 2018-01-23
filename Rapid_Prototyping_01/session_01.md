@@ -42,6 +42,16 @@ You've drawn your first line!
 
 ![Line Image](images/line.png)
 
+##### Options
+
+When you select a particular drawing method, you will be given a set of options. If you're working on a PC these options are selectable using letter keys on the keyboard, these keys are highlighted in the words of the options beneath the command line:
+
+![Extrusion Basic Image](line_options.png)
+
+On a mac, there are also buttons to select the options:
+
+![Extrusion Basic Image](line_options_mac.png)
+
 #### Polyline
 
 Now type the word "Polyline". 
@@ -73,7 +83,7 @@ Click on point 0,0,0 and draw a rectangle that is 30mm wide and 80mm high. HINT:
 
 ![Rectangle Basic Image](images/rectangle.png)
 
-
+Now type "extrude" into the command line. 
 
 #### Circle
 
@@ -81,7 +91,9 @@ Click on point 0,0,0 and draw a rectangle that is 30mm wide and 80mm high. HINT:
 
 #### Polyline
 
-### Task 4 - Boolean Split
+### Task 4 - Split/Boolean Split
+
+#### Lines
 
 #### Cylinder
 
@@ -125,5 +137,6 @@ Click on point 0,0,0 and draw a rectangle that is 30mm wide and 80mm high. HINT:
 
 http://www.instructables.com/id/Laser-Cut-Boxes/
 
+https://grabcad.com/library/arduino-uno-r3-1
 
 
