@@ -281,7 +281,7 @@ Then go ahead and mirror the front so you get a back as well, and hey presto, yo
 
 ### Task 7 - Cutting objects
 
-### Task 8 - Adding screw and USB port holes
+### Task 8 - Adding screw and USB port holes + power
 
 ### Task 9 - Adding text to be engraved
 
