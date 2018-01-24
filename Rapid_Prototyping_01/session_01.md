@@ -179,27 +179,103 @@ As with Adobe products, Rhino (as other CAD programmes) implements a system of l
 
 The layers pane is located to the right hand side. The lightbulb symbol is for visibility. You can also lock the layer to prevent changes.
 
-As you can see when we made our new project from the template, we automatically had 6 layers created for us. By double clicking on the name, you can edit it. Let's change the first three layers to have the names "Sides_X", "Sides_Y" and "Top_Bottom".
+As you can see when we made our new project from the template, we automatically had 6 layers created for us. By double clicking on the name, you can edit it. Let's change the first three layers to have the names "Front_Back", "Left_Right" and "Top_Bottom".
 
-Let's also put the Arduino on it's own layer. Rename one of the other layers. Then click on the Arduino so it is selected, then right click on your Arduino layer in the Layers pane and select "Move Objects to Layer"
+Let's also put the Arduino on it's own layer. Rename one of the other layers. Then click on the Arduino so it is selected, then right click on your Arduino layer in the Layers pane and select "Move Objects to Layer" or "Change Object Layer", depending on which version you're using.
 
-#### First side of box
+#### First side of box - Top and Bottom
 
 Maximise the top view by double clicking in the top left hand corner, where it says "Top".
 
+Select the Top_Bottom layer in the Layers pane by clicking the corresponding radio button.
+
 Now draw a rectangle (120mm x 160mm) whose bottom side is level with the USB port of the Arduino, this will help us to see the total area of our box:
 
-![Boolean Split](images/arduino_rectangle.png)
+![Arduino Rectangle](images/arduino_rectangle.png)
 
+Make sure you leave more than 5mm space on the left hand side of the Arduino...
 
+Do the following whilst still in the Top_Bottom layer:
+
+We're now going to make the outline for five finger joints at the bottom of our box. In order to do this, we need to calculate how many times five goes into the full width of 120mm.
+
+Once you've calculated that number draw a polyline that starts snapped to the top left hand corner of the rectangle. Each horizontal segment of the polyline should be the length of the number that you calculated, and each vertical segment should be 5mm long:
+
+![Case First Line](images/case_first_line.png)
 
 ##### Using the mirror function
 
+Now, rather than having to do all that again, we're able to use the "mirror" function to replicate our polyline. With the line selected, type "mirror", and make sure you select the copy option as we want to make a copy. Now, with Osnap on midpoint, hover your cursor over the middle of one of the longer lines of the rectangle. You'll see that your polyline is replicated on the bottom edge of the rectangle. Hit enter.
+
+Now we're going to repeat the process for the long sides. Let's divide 160 by 7 this time, you can round the result down to 2 decimal places. Now make a polyline going from the top left hand corner down to the bottom left hand corner with the vertical segments at the division you calclulated. And the horizontal segments at 5mm. Remember to use OSnap end...
+
+Now let's mirror it snapping to the midpoint of the bottom line of the rectangle.
+
+![Case Second Line](images/case_second_line.png)
+
+Alrighty, we now have the outline of the bottom of our box. So here we encounter another one of our common commands: "join". Select all four polylines you've drawn and type "join". You should see Rhino say "4 curves joined into one closed curve." in the command line. If you don't see that, your curves aren't snapped properly, so you'll have to find the point where their not touching each other and redraw it.
+
+![Case First Join Line](images/first_join_line.png)
+
+Now for our extrusion, go back into viewing all four view panes by double clicking in the top left hand corner again. Now, whilst focused in the "right" pane with the joined polyline selected, type "extrude" and select "extrudecrv". 
+
+Extrude upwards by 5mm. There, now we have our bottom piece of plywood for our box!
+
+![Bottom Extrusion](images/bottom_side.png)
+
+OK now create a new layer called "Const_lines_01" and move your intitial rectangle line, and your polyline to that layer.
+
+
 #### Second side of box
 
+With the right hand view pane maximised, create a rectangle that starts (end snapped) from the bottom left hand corner of the bottom extrusion. The rectangle should be 160mm wide and 60mm high. 
 
+![Left side rect](images/left_side_rect.png)
+
+
+
+We're going to repeat the processes of the bottom side of the box. So draw a polyline that starts from the top left hand corner of the bottom extrusion. This polyline should have vertical segments of 50/5 long, and horizontal segments of 5mm.
+
+So your polyline should look like this:
+
+![Left polyline 01](images/left_polyline_01.png)
+
+Then mirror using the midpoint of the horizontal rectangle lines.
+
+Now draw the corresponding horizontal polyline, starting from the end of the vertical one. Remember the divisions? It should look like this:
+
+![Left polyline 02](images/left_polyline_02.png)
+
+OK now mirror the bottom polyline using the midpoint of the vertical rectangle line, and join all of those four new polylines together.
+
+Now we can go back to 4 pane view and extrude this one by 5mm too! Is it extruding the right way? If not, try using -5mm instead...
+
+Now mirror the entire bottom extrusion, using the midpoint of the mid point of the right extrusion as an axis. Now we have a lid.
+
+And in the top view, you can mirror the right hand extrusion using the midpoint of the bottom extrusion as an axis. Now we have four sides!
+
+![Four Sides](images/four_sides.png)
 
 #### Third side of box
+
+Now you may be thinking, jeez I have to do that all again for the front and back. But here's where it gets easier. On a new layer, all we now need to do is make a box that starts from the front bottom left hand corner of the the bottom extrusion (nearest the USB port of the Arduino). This box should be 120mm x 5mm x 60mm:
+
+![Front Box](images/front_box.png)
+
+And we can use our old pal "Boolean Split" to chop out this final side using the other extrusions as cutting objects: 
+
+- First select the front box
+- Type "Boolean Split"
+- Select all the other four extrusions as cutting objects 
+- Hit enter
+
+You may get a warning about tolerances here, but it will be fine in the real world.
+
+Now you've split it, try turning off visibility on all other layers apart from the front one. You'll see, if you click around the edges, that there are now loads of offcuts. Just delete those.
+
+Then go ahead and mirror the front so you get a back as well, and hey presto, you've made a box!
+
+![Box All Sides No Holes](images/box_all_sides_no_holes.png)
 
 ### Task 6 - Construction lines
 
