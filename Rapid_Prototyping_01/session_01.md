@@ -24,7 +24,7 @@ So go to file->new from template and select new Large Objects mm template.
 
 OK, in the spirit of self directed learning, below is a list of critical assistive interface tools that every Rhino user should know. It's not an exhaustive list, but these are all very useful for the purposes of our sessions. Do your own research and make notes on each one of the items on the list, talk about them with the person next to you/members of your group. Have a play around with the interface too:
 
-	- Command line
+	- Command Driven Interface/ Command Line
 
  	- OSnap
 
