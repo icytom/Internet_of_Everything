@@ -42,6 +42,8 @@ You've drawn your first line!
 
 ![Line Image](images/line.png)
 
+OK, now experiment with the "move" command to try moving the line around. What happens if you turn on Ortho (you also have to find it on the interface again!).
+
 ##### Options
 
 When you select a particular drawing method, you will be given a set of options. If you're working on a PC these options are selectable using letter keys on the keyboard, these keys are highlighted in the words of the options beneath the command line:
@@ -146,15 +148,56 @@ I split the sphere and deleted the cylinder:
 
 ![Boolean Split](images/boolean_split_02.png)
 
-### INTERLUDE - MATERIAL THICKNESS
+### INTERLUDE 1 - MATERIAL THICKNESS
+
+When creating designs for lasercutting, it is critical that we know the thickness of the sheet material we are cutting. 
+
+For this project, we will cut a 5mm plywood. That is pretty thick, but at least we will know it is strong. 
+
+### INTERLUDE 2 - ARDUINO MODEL
+
+So, we now know how thick the walls of our box will be, but how do we know how big to make the box?
+
+This is where the power of the interplex comes into play for us: someone somewhere will have thought of this already, and will have made a 3D model of an Arduino board.
+
+Some cursory research resulted in me finding this: [Arduino 3D model](https://grabcad.com/library/arduino-uno-r3-1). You'll need to register an account to download it. Make sure you put it in the same directory where your Rhino project is located. Because you've definitely saved already, right? That would be crazy to start working on a new project and save your work...
+
+OK, now go to file->import and import the file called "arduino uno.STEP". Select the default import settings et voila, we have our very own Arduino Uno sitting in space. 
+
+You have to figure this one out: you need to *rotate* the Arduino by 90 degrees so it lies flat on the Y Plane. HINT: Use Ortho to your advantage. Take Osnap off and rotate around point 0,0,0.
+
+![Arduino Rotate](images/arduino_rotate.png)
+
+![Arduino in Position](images/arduino.png)
+
+Now put Osnap on End, and type the command "move". Hover your cursor over the very bottom of the pins on the underside of the board in the Front view pane. Let the cursor snap to the bottom of the pin. Now move the board up so it sits about 5mm above the X axis.
+
 
 ### Task 5 - Using Layers
 
+As with Adobe products, Rhino (as other CAD programmes) implements a system of layers. Layers are incredibly useful when working with more complex designs, as it means you can logically group objects and turn visibility on and off to aid understanding.
+
+The layers pane is located to the right hand side. The lightbulb symbol is for visibility. You can also lock the layer to prevent changes.
+
+As you can see when we made our new project from the template, we automatically had 6 layers created for us. By double clicking on the name, you can edit it. Let's change the first three layers to have the names "Sides_X", "Sides_Y" and "Top_Bottom".
+
+Let's also put the Arduino on it's own layer. Rename one of the other layers. Then click on the Arduino so it is selected, then right click on your Arduino layer in the Layers pane and select "Move Objects to Layer"
+
 #### First side of box
+
+Maximise the top view by double clicking in the top left hand corner, where it says "Top".
+
+Now draw a rectangle (120mm x 160mm) whose bottom side is level with the USB port of the Arduino, this will help us to see the total area of our box:
+
+![Boolean Split](images/arduino_rectangle.png)
+
+
+
+##### Using the mirror function
 
 #### Second side of box
 
-##### Using the mirror function
+
 
 #### Third side of box
 
