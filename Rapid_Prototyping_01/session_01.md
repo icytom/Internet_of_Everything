@@ -6,27 +6,39 @@ This is a practical guide with limited scope to building enclosures/interface bo
 
 ### Task 1 - Research
 
+Do some research using google, MIT's media lab and google scholar. See if you can find some interesting examples of inspiring physical prototypes.
 
+Find three examples and discuss with the person next to you/ people in your group.
 
 ### Task 2 - Simple 2D Drawing
 
 #### Interface
 
+Let's go ahead and open up Rhino.
+
 ![Interface Image](images/interface.png)
 
-Make new Large Objects mm template.
+We are going to be building a box, and our measurements are going to be in millimeters. 
 
-Command line
+So go to file->new from template and select new Large Objects mm template.
 
-OSnap
+OK, in the spirit of self directed learning, below is a list of critical assistive interface tools that every Rhino user should know. It's not an exhaustive list, but these are all very useful for the purposes of our sessions. Do your own research and make notes on each one of the items on the list, talk about them with the person next to you/members of your group. Have a play around with the interface too:
 
-Ortho
+	- Command line
 
-Grid Snap
+ 	- OSnap
 
-View on panes
+	- Ortho
+
+	- Grid Snap
+
+	- Different view panes
+
+	- Layers tab
 
 #### Line
+
+OK, starting to familiarise yourself with the layout? Great, let's get going...
 
 Type the word "Line", you will see that in the command line, it will start to guess what you want.
 
