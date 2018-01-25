@@ -99,7 +99,7 @@ Click on point 0,0,0 and draw a rectangle that is 30mm wide and 80mm high. HINT:
 
 ![Rectangle Basic Image](images/rectangle.png)
 
-Now type "extrude" into the command line. 
+Now type "extrude" into the command line. It will auto complete to "extrudecrv" - this means extrude the curve.
 
 You can see that you are presented with some options here. We want to make a solid object, so type the letter that makes it *S*olid...
 
@@ -289,27 +289,29 @@ Then go ahead and mirror the front so you get a back as well, and hey presto, yo
 
 ![Box All Sides No Holes](images/box_all_sides_no_holes.png)
 
-### Task 6 - Construction lines
 
-### Task 7 - Cutting objects
 
-### Task 8 - Adding screw and USB port holes + power
+[comment]: <> (### Task 6 - Construction lines)
 
-### Task 9 - Adding text to be engraved
+[comment]: <> (### Task 7 - Cutting objects)
 
-### Task 10 - Adding ventilation holes
+[comment]: <> (### Task 8 - Adding screw and USB port holes + power)
 
-### Task 11 - Using Make2D to get surface outlines
+[comment]: <> (### Task 9 - Adding text to be engraved)
 
-### Task 12 - Arranging your 2D shapes for cutting
+[comment]: <> (### Task 10 - Adding ventilation holes)
 
-### Task 13 - Open Challenge: Add Handles
+[comment]: <> (### Task 11 - Using Make2D to get surface outlines)
 
-### Task 14 - Open Challenge: Add a lid
+[comment]: <> (### Task 12 - Arranging your 2D shapes for cutting)
 
-### Task 15 - Open Challenge: Add a pattern to be cut on one side
+[comment]: <> (### Task 13 - Open Challenge: Add Handles)
 
-### Task 16 - Open Challenge: Add holes/mountings for buttons
+[comment]: <> (### Task 14 - Open Challenge: Add a lid)
+
+[comment]: <> (### Task 15 - Open Challenge: Add a pattern to be cut on one side)
+
+[comment]: <> (### Task 16 - Open Challenge: Add holes/mountings for buttons)
 
 http://www.instructables.com/id/Laser-Cut-Boxes/
 
