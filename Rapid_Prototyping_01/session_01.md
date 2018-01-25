@@ -311,10 +311,10 @@ Then go ahead and mirror the front so you get a back as well, and hey presto, yo
 
 [comment]: <> (### Task 15 - Open Challenge: Add a pattern to be cut on one side)
 
-[comment]: <> (### Task 16 - Open Challenge: Add holes/mountings for buttons)-->
+[comment]: <> (### Task 16 - Open Challenge: Add holes/mountings for buttons)
 
 http://www.instructables.com/id/Laser-Cut-Boxes/
 
-https://grabcad.com/library/arduino-uno-r3-1
+https://grabcad.com/library/arduino-uno-r3-1-->
 
 
