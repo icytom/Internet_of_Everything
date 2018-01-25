@@ -291,27 +291,29 @@ Then go ahead and mirror the front so you get a back as well, and hey presto, yo
 
 
 
-<!--[comment]: <> (### Task 6 - Construction lines)
+<!-- Task 6 - Construction lines
 
-[comment]: <> (### Task 7 - Cutting objects)
+Task 7 - Cutting objects
 
-[comment]: <> (### Task 8 - Adding screw and USB port holes + power)
+Task 8 - Adding screw and USB port holes + power
 
-[comment]: <> (### Task 9 - Adding text to be engraved)
+Task 9 - Adding text to be engraved
 
-[comment]: <> (### Task 10 - Adding ventilation holes)
+Task 10 - Adding ventilation holes
 
-[comment]: <> (### Task 11 - Using Make2D to get surface outlines)
+Task 11 - Using Make2D to get surface outlines
 
-[comment]: <> (### Task 12 - Arranging your 2D shapes for cutting)
+Task 12 - Arranging your 2D shapes for cutting
 
-[comment]: <> (### Task 13 - Open Challenge: Add Handles)
+Task 13 - Open Challenge: Add Handles
 
-[comment]: <> (### Task 14 - Open Challenge: Add a lid)
+Task 14 - Open Challenge: Add a lid
 
-[comment]: <> (### Task 15 - Open Challenge: Add a pattern to be cut on one side)
+Task 15 - Open Challenge: Add a pattern to be cut on one side
 
-[comment]: <> (### Task 16 - Open Challenge: Add holes/mountings for buttons)
+Task 16 - Open Challenge: Add holes/mountings for buttons
+
+-->
 
 http://www.instructables.com/id/Laser-Cut-Boxes/
 
