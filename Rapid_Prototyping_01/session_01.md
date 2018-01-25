@@ -317,4 +317,6 @@ http://www.instructables.com/id/Laser-Cut-Boxes/
 
 https://grabcad.com/library/arduino-uno-r3-1-->
 
+### If you get to this point, please start the Lynda.com tutorial.
+
 
